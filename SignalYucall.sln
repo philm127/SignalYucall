@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SignalYucall.API", "SignalYucall.API\SignalYucall.API.csproj", "{6CFD0FF7-89A3-4DCC-B322-FDF72555F94D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SignalYucall.Application", "SignalYucall.Application\SignalYucall.Application.csproj", "{65E7DA13-BD26-4091-B1F4-105037D00AE8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SignalYucall.Contracts", "SignalYucall.Contracts\SignalYucall.Contracts.csproj", "{85322B1E-BA26-4DD4-8856-909290A3498C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SignalYucall.Domain", "SignalYucall.Domain\SignalYucall.Domain.csproj", "{BDFDDD42-4A37-40CE-B74C-AED993E555F6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SignalYucall.Infrastructure", "SignalYucall.Infrastructure\SignalYucall.Infrastructure.csproj", "{101DA34A-C4A5-4EE2-AA32-73EC2CB3F489}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignalYucall.Tests", "SignalYucall.Tests\SignalYucall.Tests.csproj", "{3976F817-4AD8-4CAD-A764-1B303B6D1DD3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignalYucall.Adtones", "SignalYucall.Adtones\SignalYucall.Adtones.csproj", "{DEC59D51-0407-4DB2-AEB6-4D42BDB761BF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6CFD0FF7-89A3-4DCC-B322-FDF72555F94D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CFD0FF7-89A3-4DCC-B322-FDF72555F94D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CFD0FF7-89A3-4DCC-B322-FDF72555F94D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CFD0FF7-89A3-4DCC-B322-FDF72555F94D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65E7DA13-BD26-4091-B1F4-105037D00AE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65E7DA13-BD26-4091-B1F4-105037D00AE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65E7DA13-BD26-4091-B1F4-105037D00AE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65E7DA13-BD26-4091-B1F4-105037D00AE8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{85322B1E-BA26-4DD4-8856-909290A3498C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{85322B1E-BA26-4DD4-8856-909290A3498C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{85322B1E-BA26-4DD4-8856-909290A3498C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{85322B1E-BA26-4DD4-8856-909290A3498C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BDFDDD42-4A37-40CE-B74C-AED993E555F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDFDDD42-4A37-40CE-B74C-AED993E555F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDFDDD42-4A37-40CE-B74C-AED993E555F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDFDDD42-4A37-40CE-B74C-AED993E555F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{101DA34A-C4A5-4EE2-AA32-73EC2CB3F489}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{101DA34A-C4A5-4EE2-AA32-73EC2CB3F489}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{101DA34A-C4A5-4EE2-AA32-73EC2CB3F489}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{101DA34A-C4A5-4EE2-AA32-73EC2CB3F489}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3976F817-4AD8-4CAD-A764-1B303B6D1DD3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3976F817-4AD8-4CAD-A764-1B303B6D1DD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3976F817-4AD8-4CAD-A764-1B303B6D1DD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3976F817-4AD8-4CAD-A764-1B303B6D1DD3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DEC59D51-0407-4DB2-AEB6-4D42BDB761BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DEC59D51-0407-4DB2-AEB6-4D42BDB761BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DEC59D51-0407-4DB2-AEB6-4D42BDB761BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DEC59D51-0407-4DB2-AEB6-4D42BDB761BF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2C062CE6-7E58-482E-8D84-201DA695E8A9}
+	EndGlobalSection
+EndGlobal
